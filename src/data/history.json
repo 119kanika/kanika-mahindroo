@@ -1,0 +1,35 @@
+[
+    {
+      "role": "Development Intern",
+      "organisation": "Calsoft",
+      "startDate": "July, 2022",
+      "endDate": "June, 2023",
+      "experiences": [ 
+        "Developed user-friendly and responsive interface.",
+        "Contribute to the overall improvement of development processes by developing reusable components."
+       ],
+      "imageSrc": "hero/comapy.png"
+    },
+    {
+        "role": "Open Source Contributor",
+        "organisation": "DevIncept",
+        "startDate": "July, 2021",
+        "endDate": "Aug, 2021",
+        "experiences": [
+          "Worked on password authentication in a movie streaming website.", 
+          "Analyzed and resolved bugs accompanying other contributors."
+         ],
+        "imageSrc": "hero/comapy.png"
+      },
+    {
+      "role": "Web Developer Intern",
+      "organisation": "Sparks Foundation",
+      "startDate": "May, 2021",
+      "endDate": "Jun, 2021",
+      "experiences": [
+        "Worked on payment gateway integration.",
+        "Built UI component for payment page."
+      ],
+      "imageSrc": "hero/comapy.png"
+    }
+  ]

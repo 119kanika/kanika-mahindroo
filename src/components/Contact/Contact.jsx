@@ -18,14 +18,14 @@ const Contact = () => {
         </li>
 
         <li className={styles.link}>
-          <img src={getImageUrl("contacts/github.png")} alt="github icon" />
+          <img src={getImageUrl("contacts/linkedin.png")} alt="github icon" />
           <a href="https://www.linkedin.com/in/kanika-mahindroo-47221817a/">
             linkedin.com/in/kanika-mahindroo
           </a>
         </li>
 
         <li className={styles.link}>
-          <img src={getImageUrl("contacts/linkedin.png")} alt="linkedin icon" />
+          <img src={getImageUrl("contacts/github.png")} alt="linkedin icon" />
           <a href="https://github.com/119kanika">
             https://github.com/119kanika
           </a>

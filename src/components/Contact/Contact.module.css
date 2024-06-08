@@ -1,9 +1,9 @@
 @import "../../vars.css";
 
 .container {
-  color: var(--color-text);
+  color: var(--color-title);
   margin-top: 120px;
-  background-color: var(--color-primary);
+  background-color: var(--color-dark);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -20,8 +20,7 @@
 }
 
 .text p {
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 20px;
   letter-spacing: 2px;
 }
 
@@ -49,9 +48,6 @@
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 1px;
-}
-
-.mention {
 }
 
 @media screen and (max-width: 940px) {

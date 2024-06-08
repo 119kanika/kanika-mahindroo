@@ -9,11 +9,13 @@
 } */
 
 :root {
-  --color-text: #fff;
-  --color-primary: #344c64;
-  --color-secondary: #577b8d;
-  --color-dark: #eef1fa;
-  --color-bg: #34b9ed;
+  --color-title: rgb(46, 14, 100);
+  --color-text-primary: #fff;
+  --color-text-secondary: rgb(67, 22, 144);
+  --color-button: rgb(90, 41, 236);
+  /* --color-primary: #344c64; */
+  /* --color-secondary: #577b8d; */
+  --color-dark: rgb(197, 162, 253);
 
   --font-roboto: "Roboto";
   --font-pacifico: "Pacifico";

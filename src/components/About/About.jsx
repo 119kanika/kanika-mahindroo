@@ -17,22 +17,17 @@ const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                Frontend developer with experience in building optimized sites.
+                Software developer specializing in Front-End Development with
+                nearly 2 years of experience crafting dynamic user interfaces.
+                Proficient in JavaScript, React, HTML, CSS & various styling
+                frameworks. Bringing strong problem-solving skills and a passion
+                for creating responsive web experiences.
               </p>
             </div>
           </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("hero/development.png")} alt="" />
-            <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Facilis, voluptate. Reprehenderit officiis, molestias tempore
-                voluptate ipsum fugit perferendis quae voluptatibus vero rem
-                laborum? Animi tempora quos ducimus accusantium enim aspernatur.{" "}
-              </p>
-            </div>
-          </li>
+          {/* <li className={styles.aboutItem}>
+            <div className={styles.aboutItemText}></div>
+          </li> */}
         </ul>
       </div>
     </section>

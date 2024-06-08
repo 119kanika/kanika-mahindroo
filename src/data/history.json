@@ -1,5 +1,16 @@
 [
-    {
+  {
+    "role": "Development Engineer",
+    "organisation": "Calsoft",
+    "startDate": "July, 2023",
+    "endDate": "Feb, 2024",
+    "experiences": [ 
+      "Implemented Kubernetes clusters to orchestrate and manage containerized applications",
+      "Designed and maintained AWS infrastructure, utilizing services such as EC2, VPC, EKS "
+     ],
+    "imageSrc": "hero/comapy.png"
+  },
+  {
       "role": "Development Intern",
       "organisation": "Calsoft",
       "startDate": "July, 2022",

@@ -12,8 +12,9 @@
   --color-text: #fff;
   --color-primary: #344c64;
   --color-secondary: #577b8d;
-  --color-dark: #57a6a1;
-  --color-bg: #240750;
+  --color-dark: #eef1fa;
+  --color-bg: #34b9ed;
 
   --font-roboto: "Roboto";
+  --font-pacifico: "Pacifico";
 }

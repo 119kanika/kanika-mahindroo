@@ -58,10 +58,10 @@
 }
 
 .history {
-  width: 45%;
+  width: 54%;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
 }
 
 .historyItem {
@@ -70,9 +70,9 @@
   align-items: center;
   gap: 17px;
   background: #19376d;
-  background: linear-gradient(90deg, #344c64 0%, rgba(25, 55, 109, 0) 100%);
+  background: linear-gradient(90deg, #385fec 0%, rgba(25, 55, 109, 0.02) 110%);
   border-radius: 10px;
-  padding: 24px;
+  padding: 20px;
 }
 
 .historyItem img {
@@ -96,8 +96,8 @@
 .historyItemDetails ul {
   margin-top: 6px;
   list-style-position: inside;
-  font-size: 25px;
-  list-style-type: disc;
+  font-size: 22px;
+  list-style-type: circle;
   margin-left: 17px;
 }
 

@@ -2,8 +2,8 @@
     {
       "title": "Gemini Stream",
       "imageSrc": "project/project.jpg",
-      "description": "Dynamic Movies and Series searching platform using Gemini AI.",
-      "skills": ["React", "Redux", "Gemini AI", "Tailwind", "Firebase"],
+      "description": "Dynamic Movies and Series searching platform using Gemini AI and TMDB API.",
+      "skills": ["React", "Redux", "Gemini AI", "Tailwind", "Firebase", "APIs"],
       "demo": "https://gemini-stream-seven.vercel.app/",
       "source": "https://github.com/119kanika/GeminiStream"
     },

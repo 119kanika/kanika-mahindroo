@@ -7,15 +7,23 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, my name is Kanika</h1>
         <p className={styles.description}>
-          I'm a frontend developer with nearly 2 years of experience. Reach out
-          if you'd like to learn more
+          Front-End Developer | JavaScript, React, HTML5/CSS3 | Reach out for a
+          chat!
         </p>
-        <a
-          className={styles.contactBtn}
-          href="mailto:kanika.mahindroo@gmail.com"
-        >
-          Contact Me
-        </a>
+        <div className={styles.button}>
+          <a
+            className={styles.contactBtn}
+            href="mailto:kanika.mahindroo@gmail.com"
+          >
+            Contact Me
+          </a>
+          <a
+            className={styles.contactBtn}
+            href="https://drive.google.com/file/d/1kf3HcafvK3flSHZYCOQLCd2wAVu7w-fc/view?usp=sharing"
+          >
+            Resume
+          </a>
+        </div>
       </div>
       <img
         className={styles.heroImg}

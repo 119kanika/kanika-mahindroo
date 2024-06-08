@@ -8,18 +8,19 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 100vw;
-  padding: 58px 10%;
+  padding: 20px 5%;
   page-break-inside: 10px;
 }
 
 .text h2 {
-  font-size: 60px;
+  margin-top: 2%;
+  font-size: 40px;
   font-weight: 700;
   letter-spacing: 4px;
 }
 
 .text p {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   letter-spacing: 2px;
 }
@@ -29,25 +30,28 @@
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
-  gap: 26px;
+  gap: 10px;
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 20px;
 }
 
 .link img {
-  width: 40px;
+  width: 35px;
 }
 
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
+}
+
+.mention {
 }
 
 @media screen and (max-width: 940px) {
@@ -64,5 +68,23 @@
 
   .links {
     align-items: center;
+  }
+
+  .text h2 {
+    font-size: 35px;
+    letter-spacing: 4px;
+  }
+
+  .text p {
+    font-size: 20px;
+  }
+
+  .link a {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+  }
+
+  .link img {
+    width: 27px;
   }
 }

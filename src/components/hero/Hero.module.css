@@ -121,6 +121,11 @@
     align-items: center;
   }
 
+  .title {
+    font-size: 50px;
+    font-family: var(--font-roboto);
+  }
+
   .button {
     /* flex-direction: column; */
     gap: 15px;
@@ -129,6 +134,7 @@
 
   .contactBtn {
     margin: 0px;
+    font-size: 20px;
   }
 
   .bottomBlur {

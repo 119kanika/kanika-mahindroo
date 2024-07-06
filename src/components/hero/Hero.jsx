@@ -7,8 +7,9 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, my name is Kanika</h1>
         <p className={styles.description}>
-          Front-End Developer | JavaScript, React, HTML5/CSS3 | Reach out for a
-          chat!
+          I'm a Frontend Developer and I design and code beautiful things.{" "}
+          <br />
+          Reach out for a quick chat!
         </p>
         <div className={styles.button}>
           <a
@@ -25,13 +26,15 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <img
-        className={styles.heroImg}
-        src={getImageUrl("hero/main.jpg")}
-        alt="hero image"
-      />
-      <div className={styles.topBlur}></div>
-      <div className={styles.bottomBlur}></div>
+      <div>
+        <img
+          className={styles.heroImg}
+          src={getImageUrl("hero/main.jpg")}
+          alt="hero image"
+        />
+      </div>
+      {/* <div className={styles.topBlur}></div>
+      <div className={styles.bottomBlur}></div> */}
     </section>
   );
 };

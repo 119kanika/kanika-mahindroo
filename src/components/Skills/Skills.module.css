@@ -1,7 +1,8 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 79px;
+  /* position: relative; */
+  margin-top: 12%;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -25,7 +26,6 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 12px;
 }
 
 .skill {
@@ -38,7 +38,7 @@
   border: 1px solid rgb(241, 227, 255);
   border-radius: 5px;
   margin: 10px;
-  padding: 10px;
+  padding: 15px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -52,10 +52,26 @@
 }
 
 .skill p {
-  padding-top: 3px 1px;
+  padding-top: 5px;
   font-size: 20px;
   font-weight: 700;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 760px) {
+  .container {
+    margin-top: 40%;
+  }
+
+  .skill {
+    transition: none;
+    width: 35%;
+  }
+
+  .skill img {
+    width: 55%;
+  }
+
+  .skill p {
+    font-size: 14px;
+  }
 }

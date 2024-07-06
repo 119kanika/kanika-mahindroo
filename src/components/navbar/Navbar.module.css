@@ -34,10 +34,10 @@
   transition: transform 0.3s ease-in-out;
 }
 
-a:hover:before {
+/* a:hover:before {
   transform-origin: left;
   transform: scaleX(1);
-}
+} */
 
 .menu {
   display: flex;
@@ -66,12 +66,12 @@ a:hover:before {
   color: var(--color-title);
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1020px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
-    /* margin: -5px; */
+    margin-top: 7px;
     padding: 0px;
   }
   .menu {

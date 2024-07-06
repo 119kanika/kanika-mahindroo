@@ -1,12 +1,9 @@
 @import "../../vars.css";
 
 .container {
-  /* color: var(--color-text); */
-  /* color: #1b5c76; */
   margin-top: 79px;
   margin-left: 10%;
   margin-right: 10%;
-  /* background-color: aquamarine; */
 }
 
 .title {
@@ -54,7 +51,6 @@
 .historyDetails h3 {
   font-size: 20px;
   font-weight: bold;
-  /* margin-bottom: 5px; */
 }
 
 .historyDetails p {
@@ -65,22 +61,12 @@
 .description {
   margin-top: 5%;
   margin-left: 18%;
-  /* background-color: aqua; */
 }
 
 .description ul {
   list-style: circle;
   list-style-position: outside;
 }
-
-/* 
-.historyItemDetails ul {
-  margin-top: 10px;
-  list-style-position: outside;
-  font-size: 20px;
-  list-style-type: circle;
-  margin-left: 17px;
-} */
 
 @media screen and (max-width: 630px) {
   .history {

@@ -7,8 +7,7 @@ const Experience = () => {
   return (
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
-      <div className={styles.content}>
-        <div className={styles.skills}>
+      {/* <div className={styles.skills}>
           {skills.map((skill, id) => {
             return (
               <div key={id} className={styles.skill}>
@@ -19,28 +18,31 @@ const Experience = () => {
               </div>
             );
           })}
-        </div>
-        <ul className={styles.history}>
-          {history.map((historyItem, id) => {
-            return (
-              <li className={styles.historyItem} key={id}>
+        </div> */}
+      <div className={styles.history}>
+        {history.map((historyItem, id) => {
+          return (
+            <div className={styles.historyItem} key={id}>
+              <div className={styles.experience}>
                 <img
                   src={getImageUrl(historyItem.imageSrc)}
                   alt={`${historyItem.organisation}`}
                 />
-                <div className={styles.historyItemDetails}>
+                <div className={styles.historyDetails}>
                   <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                  <ul>
-                    {historyItem.experiences.map((exp, id) => {
-                      return <li key={id}>{exp}</li>;
-                    })}
-                  </ul>
                 </div>
-              </li>
-            );
-          })}
-        </ul>
+              </div>
+              <div className={styles.description}>
+                <ul className={styles.list}>
+                  {historyItem.experiences.map((exp, id) => {
+                    return <li key={id}>{exp}</li>;
+                  })}
+                </ul>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </section>
   );

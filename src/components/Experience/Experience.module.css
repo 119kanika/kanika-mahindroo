@@ -2,9 +2,7 @@
 
 .container {
   margin: 79px 10%;
-  /* margin-top: 79px;
-  margin-left: 10%;
-  margin-right: 10%; */
+  font-family: var(--font-roboto);
 }
 
 .title {

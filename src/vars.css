@@ -1,22 +1,9 @@
-/* :root {
-  --color-text: #fff;
-  --color-primary: #576cbc;
-  --color-secondary: #19376d;
-  --color-dark: #0b2447;
-  --color-bg: #04152d;
-
-  --font-roboto: "Roboto";
-} */
-
 :root {
   --color-title: rgb(46, 14, 100);
   --color-text-primary: #fff;
   --color-text-secondary: rgb(67, 22, 144);
   --color-button: rgb(90, 41, 236);
-  /* --color-primary: #344c64; */
-  /* --color-secondary: #577b8d; */
   --color-dark: rgb(197, 162, 253);
-
+  --font-outfit: "Outfit"
   --font-roboto: "Roboto";
-  --font-pacifico: "Pacifico";
 }

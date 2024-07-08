@@ -1,36 +1,33 @@
 @import "../../vars.css";
 
 .container {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 6rem;
+  margin-top: 15rem;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
-  /* font-family: var(--font-pacifico); */
 }
 
 .content {
   display: flex;
-  /* margin-right: 50px; */
   flex-direction: column;
   align-items: flex-start;
   color: var(--color-text-secondary);
   z-index: 1;
-  /* max-width: 45rem; */
 }
 
 .title {
-  font-size: 65px;
-  font-weight: 600;
+  font-size: 60px;
+  font-weight: 700;
   margin-bottom: 33px;
   color: var(--color-title);
 }
 
 .description {
-  font-size: 27px;
+  font-size: 20px;
+  font-weight: 600;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
 }
@@ -45,11 +42,10 @@
   color: var(--color-text-secondary);
   border-radius: 30px;
   border: 3px solid var(--color-button);
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 600;
   padding: 10px 29px;
   margin-right: 10px;
-  /* box-shadow: 0 0 4px 0 rgba(186, 47, 47, 0.25); */
   transition: all 0.5s ease;
 }
 
@@ -108,7 +104,7 @@
 @media screen and (max-width: 940px) {
   .container {
     flex-direction: column-reverse;
-    /* margin-top: 6rem; */
+    margin-top: 7rem;
   }
 
   .content {
@@ -130,7 +126,6 @@
   }
 
   .button {
-    /* flex-direction: column; */
     gap: 15px;
     align-items: center;
   }

@@ -1,19 +1,20 @@
 @import "../../vars.css";
 
 .navbar {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 60px;
+  padding: 20px 70px;
   z-index: 2;
-  margin: 0 5%;
-  /* position: fixed; */
-  /* color: #1b5c76; */
+  position: fixed;
+  right: 0;
+  left: 0;
+  background: white;
+  box-shadow: 0 0 10px rgba(25, 55, 109, 0.2);
 }
 
 .title {
-  font-size: 40px;
+  font-size: 25px;
   font-weight: bold;
   text-decoration: none;
   color: var(--color-text-secondary);
@@ -55,7 +56,7 @@
 
 .menuItems li {
   color: var(--color-text-secondary);
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   text-decoration: none;
   transition: 0.2s ease-in-out;
@@ -68,15 +69,18 @@
 
 @media screen and (max-width: 1020px) {
   .navbar {
+    /* position: relative; */
+    /* box-shadow: none; */
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
-    margin-top: 7px;
-    padding: 0px;
+    margin-top: 0px;
+    padding: 12px;
   }
   .menu {
     position: absolute;
     top: 10px;
+    right: 10px;
     flex-direction: column;
     align-items: flex-end;
     gap: 11px;
@@ -87,7 +91,7 @@
     top: 35px;
   }
   .menuBtn {
-    width: 10%;
+    width: 9%;
     height: 105;
     display: block;
     cursor: pointer;

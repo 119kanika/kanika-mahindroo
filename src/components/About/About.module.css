@@ -3,6 +3,7 @@
 .container {
   position: relative;
   background-color: var(--color-text-secondary);
+  font-family: var(--font-roboto);
   border-radius: 15px;
   padding: 73px;
   margin: 10% 10%;

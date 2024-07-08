@@ -1,6 +1,8 @@
 import { getImageUrl } from "../../utils";
 import styles from "./About.module.css";
 
+import Skills from "../Skills/Skills";
+
 const About = () => {
   return (
     <section className={styles.container} id="about">
@@ -33,22 +35,8 @@ const About = () => {
           that challenge me and deliver high-quality results. Let's create
           something amazing together.
         </span>
-        {/* <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("hero/development.png")} alt="" />
-            <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p>
-                Software developer specializing in Front-End Development with
-                nearly 2 years of experience crafting dynamic user interfaces.
-                Proficient in JavaScript, React, HTML, CSS & various styling
-                frameworks. Bringing strong problem-solving skills and a passion
-                for creating responsive web experiences.
-              </p>
-            </div>
-          </li>
-        </ul> */}
       </div>
+      <Skills />
     </section>
   );
 };

@@ -1,37 +1,49 @@
 import projects from "../../data/projects.json";
-import ProjectCard from "./ProjectCard";
+import { getImageUrl } from "../../utils";
 import styles from "./Projects.module.css";
-import { useState } from "react";
-import { FaGreaterThan, FaLessThan } from "react-icons/fa";
 
 const Project = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const nextProject = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
-    console.log(projects[currentIndex]);
-  };
-
-  const prevProject = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? projects.length - 1 : prevIndex - 1
-    );
-  };
-
   return (
     <section className={styles.container} id="projects">
       <h2 className={styles.title}>Projects</h2>
-      <div className={styles.carousel}>
-        <button className={styles.buttons} onClick={prevProject}>
-          <FaLessThan />
-        </button>
-        <ProjectCard
-          project={projects[currentIndex]}
-          className={styles.projects}
-        />
-        <button className={styles.buttons} onClick={nextProject}>
-          <FaGreaterThan />
-        </button>
+      <div className={styles.projectContainer}>
+        {projects.map((project) => {
+          return (
+            <div key={project.id} className={styles.projects}>
+              <div className={styles.image}>
+                <img src={getImageUrl(project.imageSrc)} alt="" />
+              </div>
+              <div className={styles.projectData}>
+                <h2 className={styles.porjectTitle}>{project.title}</h2>
+                <p className={styles.description}>{project.description}</p>
+                <div className={styles.skillContainer}>
+                  <h3>Tools used</h3>
+                  <ul className={styles.skills}>
+                    {project.skills.map((skill, id) => {
+                      return (
+                        <li className={styles.skill} key={id}>
+                          {skill}
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
+                <div className={styles.links}>
+                  <button>
+                    <a className={styles.link} href={project.demo}>
+                      Live link
+                    </a>
+                  </button>
+                  <button>
+                    <a className={styles.link} href={project.source}>
+                      Source code
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </section>
   );

@@ -1,24 +1,27 @@
 [
     {
+      "id": 1,
       "title": "Gemini Stream",
-      "imageSrc": "project/project.jpg",
-      "description": "Dynamic Movies and Series searching platform using Gemini AI and TMDB API.",
-      "skills": ["React", "Redux", "Gemini AI", "Tailwind", "Firebase", "APIs"],
+      "imageSrc": "project/project2.png",
+      "description": "I Recreated the Netflix website with dynamic Movies and Series searching feature using Gemini AI and TMDB API.",
+      "skills": ["React", "Redux", "Gemini AI", "Tailwind", "HTML", "CSS", "Firebase", "APIs"],
       "demo": "https://gemini-stream-seven.vercel.app/",
       "source": "https://github.com/119kanika/GeminiStream"
     },
     {
+      "id": 2,
       "title": "Appwrite Blog",
-      "imageSrc": "project/project.jpg",
-      "description": "A functional blog website with all CRUD operations using Appwrite.",
-      "skills": ["React", "JavaScript", "Tailwind CSS", "Redux", "Appwrite"],
+      "imageSrc": "project/project2.png",
+      "description": "Implemented a functional blog website with all CRUD operations using Appwrite .",
+      "skills": ["React", "JavaScript", "Tailwind CSS", "HTML", "CSS", "Redux", "Appwrite"],
       "demo": "https://vercel.com/kanikas-projects/appwrite-blog",
       "source": "https://github.com/119kanika/AppwriteBlog"
     },
     {
+      "id": 3,
       "title": "Let's Connect",
-      "imageSrc": "project/project.jpg",
-      "description": "This is a real time video chat application. with added features like live chat and screen sharing during calls.",
+      "imageSrc": "project/project2.png",
+      "description": "A real time video chat application with added features like live chat and screen sharing during calls.",
       "skills": ["JavaScript", "HTML", "CSS", "WebRTC"],
       "demo": "https://let-s-connect-a41w.vercel.app/",
       "source": "https://github.com/119kanika/Let-s-Connect"
